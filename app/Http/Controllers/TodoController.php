@@ -17,7 +17,7 @@ class TodoController extends Controller
 
     public function index()
     {
-         return Todo::paginate(10);
+         return Todo::where('user_id', auth()->user()->id)->paginate(10);
     }
 
     public function store(TodoRequest $request)
