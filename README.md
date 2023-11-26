@@ -1,4 +1,4 @@
-git clone https://github.com/Lepessov/arbuz_tz.git
+git clone https://github.com/pureweb-genius/TODO.git
 
 composer install
 
